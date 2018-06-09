@@ -34,7 +34,7 @@ for m in matches:
 img3 = np.zeros((1,1))
 
 im4 = cv2.drawMatches(img1,kp1,img2,kp2,matches[:200], img3, flags=2)
-plt.imshow(im4)#plt.show()
+plt.imshow(im4)
 cv2.imwrite('img4.jpg',im4)
 print ('img1:',len(des1))
 print ('img2:',len(des2))

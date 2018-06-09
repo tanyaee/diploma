@@ -4,8 +4,8 @@ from matplotlib import pyplot as plt
 
 ############### Image Matching ###############
 
-#img1 = cv2.imread('image/template.jpg',0)
-#img2 = cv2.imread('image/picture.jpg',0)
+img1 = cv2.imread('image/template.jpg',0)
+img2 = cv2.imread('image/picture.jpg',0)
 
 def match_images(img1, img2):
     """Given two images, returns the matches"""
